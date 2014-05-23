@@ -2,13 +2,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name = %q{api-auth}
-  s.summary = %q{Simple HMAC authentication for your APIs}
+  s.name = %q{jmoses_api-auth}
+  s.summary = %q{Simple HMAC authentication for your APIs (fork by jmoses)}
   s.description = %q{Full HMAC auth implementation for use in your gems and Rails apps.}
-  s.homepage = %q{https://github.com/mgomes/api_auth}
+  s.homepage = %q{https://github.com/jmoses/api_auth}
   s.version = File.read(File.join(File.dirname(__FILE__), 'VERSION'))
-  s.authors = ["Mauricio Gomes"]
-  s.email = "mauricio@edge14.com"
+  s.authors = ['Jon Moses', "Mauricio Gomes"]
+  s.email = ['jon@burningbush.us', "mauricio@edge14.com"]
 
   s.add_development_dependency "rake"
   s.add_development_dependency "amatch"
